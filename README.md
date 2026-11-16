@@ -154,4 +154,7 @@ The settings are at the top of `ring_frame_life_predictor.py`:
   than about 20 treat the results as indicative. Step 3 of the output shows the accuracy on your own data.
 - Train one model per component type. Large changes in spindle speed, yarn count or room temperature
   shift the readings; if you log them, add them to `SENSORS`.
+- Slow wear across the whole life is not modelled. The sample bearings stay flat until their final
+  600 to 1,500 hours, and the model only looks at the last two weeks of readings and at most 720 h
+  ahead. It does not use the component's age or its readings when new.
 - A failure that gives no warning in temperature or vibration cannot be predicted.
