@@ -1,0 +1,13 @@
+component_id,operating_hours,temperature_c,vibration_mm_s,predicted_rul_hours,cautious_rul_hours,optimistic_rul_hours,cautious_rul_days,status,action
+BRG-109,2464,75.09,5.536,16.0,0.0,41.0,0.0,CRITICAL,Replace at the next doff - failure expected within days
+BRG-102,3048,65.45,5.141,32.0,0.0,56.0,0.0,CRITICAL,Replace at the next doff - failure expected within days
+BRG-112,5608,59.44,5.578,80.0,47.0,112.0,2.0,CRITICAL,Replace at the next doff - failure expected within days
+BRG-105,7784,67.25,3.997,56.0,48.0,88.0,2.0,CRITICAL,Replace at the next doff - failure expected within days
+BRG-111,2384,59.26,3.412,112.0,96.0,144.0,4.0,WARNING,Order the spare and replace at the next planned stop
+BRG-106,6480,53.37,2.198,184.0,136.0,248.0,5.7,WARNING,Order the spare and replace at the next planned stop
+BRG-103,3240,49.98,1.909,380.0,360.0,600.0,15.0,HEALTHY,No action - continue routine monitoring
+BRG-101,5784,45.4,1.215,504.0,360.0,624.0,15.0,HEALTHY,No action - continue routine monitoring
+BRG-107,12248,47.28,1.339,720.0,472.0,720.0,19.7,HEALTHY,No action - continue routine monitoring
+BRG-108,2248,48.61,1.124,720.0,711.0,720.0,29.6,HEALTHY,No action - continue routine monitoring
+BRG-104,9656,48.06,0.768,720.0,720.0,720.0,30.0,HEALTHY,No action - continue routine monitoring
+BRG-110,2384,45.52,0.92,720.0,720.0,720.0,30.0,HEALTHY,No action - continue routine monitoring
